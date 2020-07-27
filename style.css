@@ -1,0 +1,73 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, main, nav, section, summary { display: block; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: 600; }
+
+.global-header { position: absolute; width: 100%; z-index: 998;}
+
+.global-ttl { position: fixed; top: 5%; top: 3vw; left: 5%; left: 4vw;}
+
+.global-ttl a { display: inline-block; color: black; text-decoration: none;}
+
+.global-ttl__text { display: block; font-size: 9px; font-weight: 400; letter-spacing: .08em; margin-bottom: 5px; z-index: 999;}
+
+.global-ttl__url { display: block; font-size: 11px; font-weight: 400 !important; letter-spacing: .05em; -webkit-font-smoothing: subpixel-antialiased; letter-spacing: .2em; z-index: 1000;}
+
+* {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#stalker { position: fixed; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 80px; height: 80px; border-radius: 50%; border: rgb(0, 0, 0) solid 1px; transition: 0.2s; opacity: .4; pointer-events: none; z-index: 1000;}
+
+#stalker.active { transform: scale(3); }
+
+.menu-toggle { position: fixed; top: 5%; top: 2.5vw; right: 5%; right: 4vw; cursor: pointer; width: 50px; height: 50px; text-align: center; opacity: 1; z-index: 900; }
+
+.menu-hamburger { position: absolute; top: 50%; left: 50%; display: block; width: 26px; height: 1px; margin: -2px 0 0 -13px;}
+
+.global-menu { display: none; position: fixed; text-align: left; z-index: 999; width: 11%; height: 100%; right: 0;}
+
+.global-menu__container {padding: 2rem 0;}
+
+.global-menu__container ul {padding: 0;}
+
+.global-menu__list li {margin: 0 0 7rem 0; list-style: none; text-align: center;}
+
+.global-menu__list a {text-decoration: none;}
+
+.global-menu span {font-size: 14px; font-weight: 500; letter-spacing: .2em; color: rgb(44, 44, 44); }
+
+.page-header { position: relative; text-align: center; padding-right: 10%; padding-left: 10%; margin: 10% auto 50px; font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif; font-weight: 300; font-size: 1.5rem; letter-spacing: 0.5em; text-indent: .25em;}
+
+.works-list { max-width: none; margin: 0 auto 50px; text-align: center; z-index: 4;}
+
+.works-unit-box {display: inline-block; margin: 3rem 2rem; }
+
+.works-unit { padding: 0 4% 2%; text-align: center; overflow: hidden; box-sizing: border-box; -webkit-box-sizing: border-box; }
+
+.works-unit__scr { position: relative; z-index: 4;}
+
+.works-unit__scr img { padding: 5px; width: 300px; height: 180px; object-fit: cover; vertical-align: bottom; box-shadow: 0 1px 6px -2px rgba(63, 63, 63, 0.2); z-index: 4;}
+
+.works-unit__caption { display: block; text-align: center; font-size: 12px; line-height: 20px; margin: 10px 0; color: #646460; text-transform: uppercase; font-family: 'Abel', sans-serif; font-weight: 400 !important; letter-spacing: .05em; -webkit-font-smoothing: subpixel-antialiased; letter-spacing: .12em; box-sizing: border-box; -webkit-box-sizing: border-box; }
+
+#back{ display:none; background:rgba(0, 0, 0, 0.5); position:absolute; left:0px; top:0px;}
+
+.works-img { display:none;}
+
+.sns-icon {text-align: center; margin: 12.5rem 0 9rem;}
+
+.sns-icon img {width: 250px; height: auto;}
+
+.icon-list { width: 100%; height: 500px; text-align: center; padding: 6rem 0 0; background-color: #fff;}
+
+.icon-content {display: inline; text-align: center;}
+
+.icon-content_img {width: 130px; height: auto; margin: 5rem;}
+
+.footer-icon { position: absolute; right: 0; width: 50px; height: auto; padding: 2rem 3rem;}
+
+.top-footer {position: absolute; width: 100%; height: 80px; bottom: 0; right: 0;}
+
+body { animation: fadeIn 2s ease 0s 1 normal; -webkit-animation: fadeIn 2s ease 0s 1 normal;}
+
+@keyframes fadeIn { 0% {opacity: 0} 100% {opacity: 1}}
+
+@-webkit-keyframes fadeIn { 0% {opacity: 0} 100% {opacity: 1}}
