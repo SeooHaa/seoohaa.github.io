@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: 600; }
 body { animation: fadeIn 2s ease 0s 1 normal; -webkit-animation: fadeIn 2s ease 0s 1 normal;}
 
 /*-- ぱくってきたやつ --*/
+
 .wrapper {
     height: 100%;
     overflow-x: hidden;
