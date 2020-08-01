@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: 600; }
 
 #stalker { position: fixed; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 80px; height: 80px; border-radius: 50%; border: rgb(0, 0, 0) solid 1px; transition: 0.2s; opacity: .4; pointer-events: none; z-index: 1000;}
 
-#stalker.active { transform: scale(3);}
+#stalker.active { transform: scale(3); }
 
 .menu-toggle { position: fixed; top: 5%; top: 2.5vw; right: 5%; right: 4vw; cursor: pointer; width: 50px; height: 50px; text-align: center; opacity: 1; z-index: 900; }
 
