@@ -16,12 +16,6 @@ if(!navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)){
     });
 }
 
-$(function() {
-  $(".menu-hamburger").click(function() {
-    $(".global-menu").toggle();
-  });
-});
-
 $('.menu-trigger').on('click',function(){
   if($(this).hasClass('active')){
     $(this).removeClass('active');
@@ -40,6 +34,3 @@ $('.overlay').on('click',function(){
     $('nav').removeClass('open');      
   }
 });
-
-
-Resources
