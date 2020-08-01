@@ -113,7 +113,7 @@ body { animation: fadeIn 2s ease 0s 1 normal; -webkit-animation: fadeIn 2s ease 
     position: absolute;
     left: 0;
     width: 100%;
-    height: 4px;
+    height: 2px;
     background-color: #000;
   }
   .menu-trigger.active span {
@@ -165,7 +165,6 @@ body { animation: fadeIn 2s ease 0s 1 normal; -webkit-animation: fadeIn 2s ease 
   ul {
     list-style: none;
   }
-
 
 @keyframes fadeIn { 0% {opacity: 0} 100% {opacity: 1}}
 
