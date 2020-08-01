@@ -158,10 +158,6 @@ body { animation: fadeIn 2s ease 0s 1 normal; -webkit-animation: fadeIn 2s ease 
     text-align: center;
     padding: 10px 0;
   }
-  
-  * {
-    box-sizing: border-box;
-  }
   ul {
     list-style: none;
   }
