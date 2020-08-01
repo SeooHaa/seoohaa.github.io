@@ -20,8 +20,6 @@ h1, h2, h3, h4, h5, h6 { font-weight: 600; }
 
 .menu-toggle { position: fixed; top: 5%; top: 2.5vw; right: 5%; right: 4vw; cursor: pointer; width: 50px; height: 50px; text-align: center; opacity: 1; z-index: 900; }
 
-.menu-hamburger { position: absolute; top: 50%; left: 50%; display: block; width: 26px; height: 1px; margin: -2px 0 0 -13px;}
-
 .global-menu { display: none; position: fixed; text-align: left; z-index: 999; width: 11%; height: 100%; right: 0;}
 
 .global-menu__container {padding: 2rem 0;}
@@ -166,9 +164,6 @@ body { animation: fadeIn 2s ease 0s 1 normal; -webkit-animation: fadeIn 2s ease 
   ul {
     list-style: none;
   }
-  
-  
-  Resources
 
 
 @keyframes fadeIn { 0% {opacity: 0} 100% {opacity: 1}}
