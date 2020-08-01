@@ -17,69 +17,41 @@
             <span class="global-ttl__url">SEOHAZUKI</span>
             </a>
         </p>
-     
-        <nav>
-            <div id="menu-toggle" class="menu-toggle">
-              <div class="menu-hamburger"><img src="image/menu.svg" width="25px" height="25px"></div>
-            </div>
-            <div id="global-menu" class="global-menu">
-              <div class="global-menu__container">
-              <ul class="global-menu__list">
-              <li><a href="profile.html">
-              <span class="menu-en">PROFILE</span>
-              </a></li>
-              <li><a href="works.html">
-              <span class="menu-en">WORKS</span>
-              </a></li>
-              <li><a href="hello.html">
-              <span class="menu-en">HELLO</span>
-              </a></li>
-              </ul>
-              </div>
-              <div id="menu-bg" class="menu-bg"></div>
-            </div>
-        </nav>
     </header>
+
+    <nav class="slideR">
+      <span class="nav-icon"><img src="image/menu.svg" alt=""></span>
+      <ul>
+        <li><a href="profile.html">PROFILE</a></li>
+        <li><a href="works.html">WORKS</a></li>
+        <li><a href="hello.html">HELLO</a></li>
+      </ul>
+    </nav>
 
     <header id="content-profile" class="page-header">
         <h2 class="page-header__heading">  
           <span class="heading-en">PROFILE</span>
         </h2>
     </header>
-    
+
+    <div class="profile-box">
+      <div class="profile-content">
+        <div class="profile-img"><img src="image/profile.png"></div>
+        <p>
+          <span class="name-ja">清尾 はづき</span>
+          <span class="name-en">SEO HAZUKI</span>
+        </p>
+      <p>
+        <span class="read">
+          2000年生まれ/愛知工業大学に在籍.
+          サークル活動を通して、メディアコンテンツ制作を学び中.
+        </span> 
+      </p>
+      </div>
+    </div>
 
     <footer>
         <img src="image/icon1.svg" class="footer-icon">
       </footer>
 </body>
 </html>
-
-
-
-<script type="text/javascript">
-
-  if(!navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)){
-      $(function(){
-          var body = document.body;
-          var cursor = document.createElement("div");
-          var stalker = document.createElement("div");
-          cursor.id = "cursor";
-          stalker.id = "stalker";
-          body.appendChild(cursor);
-          body.appendChild(stalker);
-          body.addEventListener("mousemove", function(e) {
-                cursor.style.left = e.clientX + "px";
-                cursor.style.top = e.clientY + "px";
-                stalker.style.left = e.clientX + "px";
-                stalker.style.top = e.clientY + "px";
-          }, false);
-      });
-  }
-  
-  $(function() {
-    $(".menu-hamburger").click(function() {
-      $(".global-menu").toggle();
-    });
-  });
-  
-  

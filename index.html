@@ -8,6 +8,7 @@
     <!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="json.js"></script>
+    <script src="https://code.jquery.com/color/jquery.color-2.2.0.min.js" integrity="sha256-aSe2ZC5QeunlL/w/7PsVKmV+fa0eDbmybn/ptsKHR6I=" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="gloval-header" >
@@ -15,32 +16,18 @@
             <a href="index.html">
             <span class="global-ttl__text">ウェブデザイン</span>
             <span class="global-ttl__url">SEOHAZUKI</span>
-            <span>どうやってもGithub上でjavascript適応できなかったのでボタン押せません</span>
             </a>
         </p>
-     
-        <nav>
-            <div id="menu-toggle" class="menu-toggle">
-              <div class="menu-hamburger"><img src="image/menu.svg" width="25px" height="25px"></div>
-            </div>
-            <div id="global-menu" class="global-menu">
-              <div class="global-menu__container">
-              <ul class="global-menu__list">
-              <li><a href="profile.html">
-              <span class="menu-en">PROFILE</span>
-              </a></li>
-              <li><a href="works.html">
-              <span class="menu-en">WORKS</span>
-              </a></li>
-              <li><a href="hello.html">
-              <span class="menu-en">HELLO</span>
-              </a></li>
-              </ul>
-              </div>
-              <div id="menu-bg" class="menu-bg"></div>
-            </div>
-        </nav>
     </header>
+
+    <nav class="slideR">
+        <span class="nav-icon"><img src="image/menu.svg" alt=""></span>
+        <ul>
+          <li><a href="profile.html">PROFILE</a></li>
+          <li><a href="works.html">WORKS</a></li>
+          <li><a href="hello.html">HELLO</a></li>
+        </ul>
+    </nav>
 
     <header id="content-profile" class="page-header">
         <h2 class="page-header__heading">  
@@ -49,14 +36,25 @@
     </header>
 
     <div class="icon-list">
+        <p class="icon-text">
+            <span class="iconpr">\PROFILE!/</span>
+            <span class="iconwo">\WORKS!/</span>
+            <span class="iconhe">\HELLO!/</span>
+        </p>
         <div class="icon-content">
-            <img src="image/icon1.svg" class="icon-content_img">
+            <a href="profile.html">
+            <img src="image/icon1.svg" class="icon-content_img" id="page1">
+            </a>
         </div>
         <div class="icon-content">
-            <img src="image/icon2.svg" class="icon-content_img">
+            <a href="works.html">
+            <img src="image/icon2.svg" class="icon-content_img" id="page2">
+            </a>
         </div>
         <div class="icon-content">
-            <img src="image/icon3.svg" class="icon-content_img">
+            <a href="hello.html">
+            <img src="image/icon3.svg" class="icon-content_img" id="page3">
+            </a>
         </div>
     </div>
 

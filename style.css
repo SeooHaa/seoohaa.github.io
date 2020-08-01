@@ -14,10 +14,6 @@ h1, h2, h3, h4, h5, h6 { font-weight: 600; }
 
 * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
-#stalker { position: fixed; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 80px; height: 80px; border-radius: 50%; border: rgb(0, 0, 0) solid 1px; transition: 0.2s; opacity: .4; pointer-events: none; z-index: 1000;}
-
-#stalker.active { transform: scale(3); }
-
 .menu-toggle { position: fixed; top: 5%; top: 2.5vw; right: 5%; right: 4vw; cursor: pointer; width: 50px; height: 50px; text-align: center; opacity: 1; z-index: 900; }
 
 .global-menu { display: none; position: fixed; text-align: left; z-index: 999; width: 11%; height: 100%; right: 0;}
@@ -50,33 +46,55 @@ h1, h2, h3, h4, h5, h6 { font-weight: 600; }
 
 .works-img { display:none;}
 
-.sns-icon {text-align: center; margin: 12.5rem 0 9rem;}
+.sns-icon {text-align: center; margin: 12rem 0 7.5rem;}
 
 .sns-icon img {width: 250px; height: auto;}
 
-.icon-list { width: 100%; height: 500px; text-align: center; padding: 6rem 0 0; background-color: #fff;}
+.icon-list { width: 100%; height: 500px; text-align: center; padding-top: 3rem; padding-right: 25px;}
 
 .icon-content {display: inline; text-align: center;}
 
 .icon-content_img {width: 130px; height: auto; margin: 5rem;}
 
-.footer-icon { position: absolute; right: 0; width: 50px; height: auto; padding: 2rem 3rem;}
+.icon-content a {text-decoration: none;}
+
+.icon-text{ text-align: center; padding-right: 25px; bottom: 0;}
+
+.iconpr {position: relative; color: #FFF; opacity:0%; font-size: 22px; letter-spacing: .5rem; font-weight: 600; padding: 1rem 3rem;}
+
+.iconwo {position: relative; color: #FFF; opacity:0%; font-size: 22px; letter-spacing: .5rem; font-weight: 600; padding: 1rem 3rem;}
+
+.iconhe {position: relative; color: #FFF; opacity:0%; font-size: 22px; letter-spacing: .5rem; font-weight: 600; padding: 1rem 3rem;}
+
+.profile-box {margin:8.5vw 30vw;}
+
+.profile-content { display: inline-block; }
+
+.profile-img img {display: inline-block; position: relative; width: 200px; height: auto; float: left; margin-right: 4vw;}
+
+.profile-content p {margin: 2vw; color: rgb(39, 39, 39);}
+
+.name-ja {font-size: 20px; font-weight: 400; letter-spacing: .08em; margin-right: .7rem;}
+
+.name-en {font-size: 11px; letter-spacing: .08em;}
+
+.read {font-size: 13px;}
+
+.footer-icon { position: absolute; left: 0; width: 50px; height: auto; padding: 2rem 3rem;}
 
 .top-footer {position: absolute; width: 100%; height: 80px; bottom: 0; right: 0;}
 
-body { animation: fadeIn 2s ease 0s 1 normal; -webkit-animation: fadeIn 2s ease 0s 1 normal;}
+body { animation: fadeIn 2s ease 0s 1 normal; -webkit-animation: fadeIn 2s ease 0s 1 normal; background-color: #fff;}
 
-#slideR {
-  z-index: 99;
-  cursor: pointer;
-  position: fixed;
-  top: 40%;
-  right: -140px;
-  background: #0DCEA8;
-  width: 180px;
-  color: #fff;
-  font-size: 16px;
-}
+.slideR { z-index: 1000; cursor: pointer; position: fixed; top: 0; right: -90px; border-left: gray solid 1px; height: 100%; width: 140px; color: #fff; font-size: 16px;}
+
+.slideR img {position: relative; display: block; width: 25px; height: auto; top: 3.2vw; left: 12.5px;}
+
+.slideR ul {display: inline-block; position: relative; left: 20px; top: 5vw;}
+
+.slideR li { list-style: none; margin: 5rem 0; text-align: right;}
+
+.slideR a { text-decoration: none; color: rgb(46, 46, 46); left: 80px; font-size: 12px; font-weight: 400 !important; letter-spacing: .05em; -webkit-font-smoothing: subpixel-antialiased; letter-spacing: .2em;}
 
 @keyframes fadeIn { 0% {opacity: 0} 100% {opacity: 1}}
 
