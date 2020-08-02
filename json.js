@@ -84,7 +84,7 @@ $(function() {
           $('#page3').animate({
             opacity: "0%"}, 400),
             $('.go-list').animate({
-              left: "40%"}),
+              left: "39%"}),
               $('.go-list').animate({
                 opacity: "100%"},400)
     },
