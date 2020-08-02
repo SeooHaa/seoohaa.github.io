@@ -74,6 +74,10 @@ h1, h2, h3, h4, h5, h6 { font-weight: 600; }
 
 .profile-content p {margin: 2vw; color: rgb(39, 39, 39);}
 
+.go-list { position: absolute; top: 57%; display: flex; text-align: center; opacity: 0%;}
+
+.go-list .go {width: 180px; height: auto; display: flex;}
+
 .name-ja {font-size: 20px; font-weight: 400; letter-spacing: .08em; margin-right: .7rem;}
 
 .name-en {font-size: 11px; letter-spacing: .08em;}

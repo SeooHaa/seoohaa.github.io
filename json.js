@@ -27,6 +27,8 @@ $(function() {
     );
 });
 
+/*--INDEX--*/
+
 $(function() {
   $('#page1').hover(
   function(){
@@ -37,7 +39,15 @@ $(function() {
         backgroundColor: "#a1d4c3","border-left-color": "#FFF"},400),
         $('.iconpr').animate({
           opacity: "100%"},400
-          )
+          ),
+          $('#page2').animate({
+            opacity: "0%"}, 400),
+            $('#page3').animate({
+              opacity: "0%"}, 400),
+              $('.go-list').animate({
+                left: "19%"}),
+                $('.go-list').animate({
+                  opacity: "100%"},400)
     },
     function(){
       $('body').animate({
@@ -47,7 +57,13 @@ $(function() {
         backgroundColor: "","border-left-color": "gray"},400),
         $('.iconpr').animate({
           opacity: "0%"},400
-          )
+          ),
+          $('#page2').animate({
+            opacity: "100%"}, 400),
+            $('#page3').animate({
+              opacity: "100%"}, 400),
+                $('.go-list').animate({
+                  opacity: "0%"},400)
     }
   );
 });
@@ -62,7 +78,15 @@ $(function() {
         backgroundColor: "#ffeec7","border-left-color": "#FFF"},400),
       $('.iconwo').animate({
         opacity: "100%"},400
-        )
+        ),
+        $('#page1').animate({
+          opacity: "0%"}, 400),
+          $('#page3').animate({
+            opacity: "0%"}, 400),
+            $('.go-list').animate({
+              left: "40%"}),
+              $('.go-list').animate({
+                opacity: "100%"},400)
     },
     function(){
       $('body').animate({
@@ -72,7 +96,13 @@ $(function() {
         backgroundColor: "","border-left-color": "gray"},300),
       $('.iconwo').animate({
         opacity: "0%"},400
-        )
+        ),
+        $('#page1').animate({
+          opacity: "100%"}, 400),
+          $('#page3').animate({
+            opacity: "100%"}, 400),
+              $('.go-list').animate({
+                opacity: "0%"},400)
     }
   );
 });
@@ -87,7 +117,15 @@ $(function() {
         backgroundColor: "#d3d3d3","border-left-color": "#FFF"},300),
         $('.iconhe').animate({
           opacity: "100%"},400
-          )
+          ),
+          $('#page2').animate({
+            opacity: "0%"}, 400),
+            $('#page1').animate({
+              opacity: "0%"}, 400),
+              $('.go-list').animate({
+                left: "59%"}),
+                $('.go-list').animate({
+                  opacity: "100%"},400)
     },
     function(){
       $('body').animate({
@@ -97,7 +135,13 @@ $(function() {
         backgroundColor: "","border-left-color": "gray"},400),
         $('.iconhe').animate({
           opacity: "0%"},400
-          )
+          ),
+          $('#page2').animate({
+            opacity: "100%"}, 400),
+            $('#page1').animate({
+              opacity: "100%"}, 400),
+                $('.go-list').animate({
+                  opacity: "0%"},400)
     }
   );
 });
